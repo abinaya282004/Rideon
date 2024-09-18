@@ -1,0 +1,458 @@
+.navbar-brand
+{
+    color: red;
+}
+.n1
+{
+    text-decoration: none;
+    color: white;
+}
+.navbar
+{
+    height: 60px;
+}
+.nav-item
+{
+    color: white;
+    padding: 20px;
+}
+
+.custom-navbar
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+li a:hover
+{
+    background-color: rgb(209, 51, 51);
+    width: 170px;
+}
+
+.back
+{
+    background-image: url("./rideon_images/Home/img-1.png");
+    height: 94vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.reliable
+{   
+    font-weight: 100;
+    font-size: 4rem;
+     text-align: center;
+}
+.p1
+{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.btn-danger
+{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/* 2 row 2 column  start*/
+
+.box 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+
+}
+.h4
+{
+    color: black;
+}
+
+.icon-box 
+{
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ca403c;
+    margin-right: 15px;
+    color: #d9534f;
+}
+
+.content h4 
+{
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+}
+
+.content hr 
+{
+    margin: 5px 0;
+    width: 30px;
+    color: black;
+}
+
+.content p 
+{
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+/* input boxes container start */
+
+.nav-link {
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-link.active 
+{
+    background-color: #d9534f; 
+}
+
+.in 
+{
+    background-color:black; 
+}
+
+
+.btn-reserve {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.btn-custom:hover 
+{
+    background-color: #c9302c;
+}
+
+.label
+{
+    color: white;
+}
+
+
+.form-control
+{
+    border-radius: 0px;
+}
+
+
+/* Input Boxes End */
+
+
+/* Our Fleet start */
+
+h3
+{
+    text-align: center;
+    color: black;
+}
+
+.p2
+{
+    text-align: center;
+    color: rgb(43, 41, 41);
+    font-size: 18px;
+}
+
+
+.owl-carousel .item {
+    position: relative;
+    margin: 10px;
+}
+
+
+.custom-nav-right {
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.custom-prev, .custom-next {
+    color: black;
+    border: 1px solid;
+    border-radius: 45px;
+    font-size: 18px;
+}
+
+.btn-left 
+{
+    position: absolute; 
+    right: 20px; 
+    
+}
+@media (max-width: 768px) 
+{
+    .btn-right 
+    {
+        right: 10px;
+        
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .custom-prev, .custom-next 
+    {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .custom-prev, .custom-next 
+    {
+        padding: 6px 10px;
+    }
+}
+
+
+
+
+
+/* Card Start */
+
+.car-item 
+{
+    text-align: center;
+    padding: 20px;
+}
+.car-item img 
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn-price 
+{
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 0px;
+    padding: 0px 10px ;
+}
+
+.p3
+{
+    color: black;
+    font-size: 14px;
+}
+
+
+.p4
+{
+    color: black;
+    font-size: 16px;
+}
+
+.card-body
+{
+    color: black;
+    text-align: left;
+}
+
+/* Our Fleet Card End */
+
+
+/* Testimonails Start */
+
+.test
+{
+    background-image: url("./rideon_images/Home/img-8.png");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonails
+{
+    color: white;
+
+}
+
+.p4
+{
+    color: white;
+    font-size: 16px;
+}
+
+.quote {
+    position: absolute;
+    width: 70px; 
+    height: auto;
+}
+
+.left-quote {
+    top: -10px; 
+    left: -90px; 
+}
+
+.right-quote {
+    top: 80px;
+    right: -90px; 
+}
+
+/* Testimonails End */
+
+
+/* About us start */
+
+
+.aboutus
+{
+    text-align: left;
+}
+
+.p5
+{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.video-thumbnail 
+{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.video-thumbnail img 
+{
+    width: 100%;
+    height: auto;
+}
+
+.video-thumbnail .play-button 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.video-container
+{
+    display: none;
+}
+
+.learn
+{
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+/* About Us End */
+
+/* Booking Start */
+
+.book
+{
+    background-image: url("./rideon_images/Home/img-1.png");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.booking
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn3
+{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.p6
+{
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Booking End */
+
+/* Latest News Start */
+
+.latest
+{
+    color: black;
+}
+
+.newstext
+{
+    font-size: 13px;
+    text-align: justify;
+}
+.card-title
+{
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Latest News End */
+
+/* Footer Start */
+
+.footer-container
+{
+    background-color: rgb(20, 19, 19);
+    padding: 40px;
+}
+.footer-container .newsletter-input
+{
+    width: 100%;
+    max-width: 250px;
+}
+.news
+{
+    color: white;
+    font-size: 14px;
+}
+.news1
+{
+    color: white;
+    text-align: left;
+}
+
+.btn-sub
+{
+    height: 37px;
+    width: 120px;
+}
+
+/* Footer End */
